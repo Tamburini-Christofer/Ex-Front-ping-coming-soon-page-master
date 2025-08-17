@@ -11,6 +11,8 @@ body{
     font-family: "Libre Franklin", "arial",;
 }
 
+/*Contenitore*/
+
 .contenitore_principale{
     width: 40vw;
     margin: 50px auto;
@@ -18,9 +20,9 @@ body{
 }
 
 .ct_header{
-    background-color: brown;
-    height: 50px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ct_up{
@@ -40,3 +42,15 @@ body{
     height: 70px;
     width: 100%;
 }
+
+/*Struttura*
+
+/*Header*/
+
+.ct_header img{
+    margin: 25px 0;
+    max-width: 60px;
+}
+
+
+
