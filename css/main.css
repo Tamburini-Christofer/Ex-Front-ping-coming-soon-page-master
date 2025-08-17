@@ -8,7 +8,53 @@
 
 body{
     font-size: 16px;
-    font-family: "Libre Franklin", "arial",;
+    font-family: "Libre Franklin", "arial";
+}
+
+/*Titoli*/
+
+h1{ 
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+
+    font-family: "Libre Franklin", "arial";
+    font-weight: 200;
+    padding:0 40PX;
+    margin: 10px 0;
+}
+
+h5{
+    font-weight: 500;
+    color: hsl(0, 0%, 22%);
+    text-align: center;
+    margin: 10px 0 40px 0;
+}
+
+strong{
+    font-weight: 700;
+    color: hsl(209, 33%, 12%);
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 65%;
+    color: hsl(0, 0%, 59%);
+    padding: 10px 30px;
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius:30px;
+}
+
+button{
+    color: white;
+    letter-spacing: 1px;
+    background-color: rgb(112, 86, 254);
+    padding: 10px 50px;
+    border: 0;
+    border-radius:30px;
 }
 
 /*Contenitore*/
@@ -16,7 +62,6 @@ body{
 .contenitore_principale{
     width: 40vw;
     margin: 50px auto;
-    background-color: bisque;
 }
 
 .ct_header{
@@ -26,7 +71,6 @@ body{
 }
 
 .ct_up{
-    background-color: rgb(222, 224, 137);
     height: 160px;
     width: 100%;
 }
