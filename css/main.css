@@ -78,6 +78,7 @@ form{
     margin: 10px 0 0 30px;
 }
 
+/*Input*/
 
 input{
     width: 65%;
@@ -90,6 +91,8 @@ input{
 input:invalid{
     border: 2px solid hsl(0, 100%, 50%);
 }
+
+/*Bottone*/
 
 button{
     order: 2;
