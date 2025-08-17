@@ -35,6 +35,39 @@ strong{
     color: hsl(209, 33%, 12%);
 }
 
+/*Contenitore*/
+
+.contenitore_principale{
+    width: 40vw;
+    margin: 50px auto;
+}
+
+.ct_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct_up{
+    height: 160px;
+    width: 100%;
+}
+
+.ct_footer{
+    background-color: rgb(31, 36, 170);
+    height: 70px;
+    width: 100%;
+}
+
+/*Struttura*
+
+/*Header*/
+
+.ct_header img{
+    margin: 25px 0;
+    max-width: 60px;
+}
+
 form{
     display: flex;
     justify-content: space-between;
@@ -57,44 +90,15 @@ button{
     border-radius:30px;
 }
 
-/*Contenitore*/
+/*Main*/
 
-.contenitore_principale{
-    width: 40vw;
-    margin: 50px auto;
+.ct_down img{
+    margin: 50px 0;
+    max-width: 100%;
 }
 
-.ct_header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.ct_up{
-    height: 160px;
-    width: 100%;
-}
 
-.ct_down{
-    background-color: rgb(137, 224, 195);
-    height: 300px;
-    width: 100%;
-}
-
-.ct_footer{
-    background-color: rgb(31, 36, 170);
-    height: 70px;
-    width: 100%;
-}
-
-/*Struttura*
-
-/*Header*/
-
-.ct_header img{
-    margin: 25px 0;
-    max-width: 60px;
-}
 
 
 
