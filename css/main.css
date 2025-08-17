@@ -77,12 +77,24 @@ form{
     justify-content: space-between;
 }
 
+.ct_up span{
+    color: red;
+    font-size: 10px;
+    font-style: italic;
+    margin: 10px 0 0 30px;
+}
+
+
 input{
     width: 65%;
     color: hsl(0, 0%, 59%);
     padding: 10px 30px;
     border: 1px solid hsl(0, 0%, 59%);
     border-radius:30px;
+}
+
+input:invalid{
+    border: 2px solid hsl(0, 100%, 50%);
 }
 
 button{
@@ -92,6 +104,11 @@ button{
     padding: 10px 50px;
     border: 0;
     border-radius:30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(223, 100%, 72%);
 }
 
 /*Main*/
@@ -106,6 +123,13 @@ button{
 .ct_footer div i{
     color: hsl(223, 87%, 63%);
     margin: 0 10px 30px 0;
+}
+
+.ct_footer div i:hover{
+    color: white;
+    background-color:  hsl(223, 87%, 63%);
+    border-radius: 100%;
+    padding: 10px 23px 10px 10px;
 }
 
 .ct_footer div span{
